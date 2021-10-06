@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import starsImage from "../../img/stars.png";
-import twinklingImage from "../../img/twinkling.png";
+// import starsImage from "../../img/stars.png";
+// import twinklingImage from "../../img/twinkling.png";
 
 const Secondscounter = () => {
 	const [counter, setCounter] = useState(0);
@@ -35,12 +35,8 @@ const Secondscounter = () => {
 
 	return (
 		<div className="container mt-5">
-			<div>
-				<img className="stars" src={starsImage} alt="" />
-			</div>
-			<div>
-				<img className="twinkling" src={twinklingImage} alt="" />
-			</div>
+			<div className="stars"></div>
+			<div className="twinkling"></div>
 			<div className="row d-flex flex-row justify-content-center">
 				<div className="col-sm-2 mx-2 text-center">
 					<i className="far fa-clock"></i>

@@ -17,12 +17,12 @@ body{
     z-index: -2;
 }
 .stars{
-    background: #000 repeat top center;
+    background: #000 url("../img/stars.png") repeat top center;
 }
 .twinkling{
-    background: transparent repeat top center;
+    background: transparent url("../img/twinkling.png") repeat top center;
     z-index: -1;
-    animation: move-twinkling-back 200s linear infinite;
+    animation: move-twinkling-back 200s infinite;
 }
 @keyframes move-twinkling-back{
     from {background-position: 0 0;}
