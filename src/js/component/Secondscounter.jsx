@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import starsImage from "../../img/stars.png";
-// import twinklingImage from "../../img/twinkling.png";
 
 const Secondscounter = () => {
 	const [counter, setCounter] = useState(0);
@@ -38,15 +36,19 @@ const Secondscounter = () => {
 			<div className="stars"></div>
 			<div className="twinkling"></div>
 			<div className="row d-flex flex-row justify-content-center">
-				<div className="col-sm-2 mx-2 text-center">
+				<div className="col-sm-2 mx-2 text-center box">
 					<i className="far fa-clock"></i>
 				</div>
-				<div className="col-sm-1 mx-2 text-center">{hunThousand}</div>
-				<div className="col-sm-1 mx-2 text-center">{tenThousand}</div>
-				<div className="col-sm-1 mx-2 text-center">{thousand}</div>
-				<div className="col-sm-1 mx-2 text-center">{hundred}</div>
-				<div className="col-sm-1 mx-2 text-center">{ten}</div>
-				<div className="col-sm-1 mx-2 text-center">{unit}</div>
+				<div className="col-sm-1 mx-2 text-center box">
+					{hunThousand}
+				</div>
+				<div className="col-sm-1 mx-2 text-center box">
+					{tenThousand}
+				</div>
+				<div className="col-sm-1 mx-2 text-center box">{thousand}</div>
+				<div className="col-sm-1 mx-2 text-center box">{hundred}</div>
+				<div className="col-sm-1 mx-2 text-center box">{ten}</div>
+				<div className="col-sm-1 mx-2 text-center box">{unit}</div>
 			</div>
 		</div>
 	);
